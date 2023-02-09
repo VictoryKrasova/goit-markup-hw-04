@@ -30,7 +30,7 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
           <ul class="menu list menu-nav">
             <li class="menu-item">
               <a
-                class="menu-link menu-link-studio link current"
+                class="menu-link menu-link-studio menu-link-active link current"
                 href="./index.html"
                 >Studio</a
               >
@@ -78,9 +78,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
         <div class="container">
           <ul class="about-us-list list">
             <li class="about-list">
-              <svg class="about-icon" width="64" height="64">
-                <use href="./images/sprite.svg#anntena"></use>
-              </svg>
+              <div class="icon-container">
+                <svg class="about-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#anntena"></use>
+                </svg>
+              </div>
               <h3 class="third-header">Strategy</h3>
               <p class="about-discr">
                 Our goal is to identify the business problem to walk away with
@@ -88,9 +90,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
               </p>
             </li>
             <li class="about-list">
-              <svg class="about-icon" width="64" height="64">
-                <use href="./images/sprite.svg#clock"></use>
-              </svg>
+              <div class="icon-container">
+                <svg class="about-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#clock"></use>
+                </svg>
+              </div>
               <h3 class="third-header">Punctuality</h3>
               <p class="about-discr">
                 Bring the key message to the brand's audience for the best price
@@ -98,9 +102,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
               </p>
             </li>
             <li class="about-list">
-              <svg class="about-icon" width="64" height="64">
-                <use href="./images/sprite.svg#diagram"></use>
-              </svg>
+              <div class="icon-container">
+                <svg class="about-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#diagram"></use>
+                </svg>
+              </div>
               <h3 class="third-header">Diligence</h3>
               <p class="about-discr">
                 Research and confirm brands that present the strongest digital
@@ -108,9 +114,11 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
               </p>
             </li>
             <li class="about-list">
-              <svg class="about-icon" width="64" height="64">
-                <use href="./images/sprite.svg#astronaut"></use>
-              </svg>
+              <div class="icon-container">
+                <svg class="about-icon" width="64" height="64">
+                  <use href="./images/sprite.svg#astronaut"></use>
+                </svg>
+              </div>
               <h3 class="third-header">Technologies</h3>
               <p class="about-discr">
                 Design practice focused on digital experiences. We bring forth a
@@ -336,52 +344,54 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
       </section>
 
       <!-- ===============CUSTOMERS -->
-      <section class="section container">
-        <h2 class="cust-header">Customers</h2>
-        <ul class="customers-list list">
-          <li class="customers-item">
-            <a href="" class="customers-link">
-              <svg class="cstom-icon" width="41" height="47">
-                <use href="./images/sprite.svg#ya-co"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a href="" class="customers-link">
-              <svg class="cstom-icon" width="40" height="52">
-                <use href="./images/sprite.svg#tagline"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a href="" class="customers-link">
-              <svg class="cstom-icon" width="44" height="41">
-                <use href="./images/sprite.svg#company"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a href="" class="customers-link">
-              <svg class="cstom-icon" width="84" height="41">
-                <use href="./images/sprite.svg#foster"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a href="" class="customers-link">
-              <svg class="cstom-icon" width="63" height="45">
-                <use href="./images/sprite.svg#brand"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="customers-item">
-            <a href="" class="customers-link">
-              <svg class="cstom-icon" width="94" height="44">
-                <use href="./images/sprite.svg#company-tag"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <h2 class="cust-header">Customers</h2>
+          <ul class="customers-list list">
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="cstom-icon" width="41" height="47">
+                  <use href="./images/sprite.svg#ya-co"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="cstom-icon" width="40" height="52">
+                  <use href="./images/sprite.svg#tagline"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="cstom-icon" width="44" height="41">
+                  <use href="./images/sprite.svg#company"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="cstom-icon" width="84" height="41">
+                  <use href="./images/sprite.svg#foster"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="cstom-icon" width="63" height="45">
+                  <use href="./images/sprite.svg#brand"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="customers-item">
+              <a href="" class="customers-link">
+                <svg class="cstom-icon" width="94" height="44">
+                  <use href="./images/sprite.svg#company-tag"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
@@ -400,32 +410,32 @@ https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css
         </div>
 
         <div class="media-container">
-          <h4 class="ftr-head">Social media</h4>
-          <ul class="social-list list">
+          <p class="ftr-head">Social media</p>
+          <ul class="social-list-ftr list">
             <li class="social-list-item">
               <a href="" class="social-list-link-ftr">
-                <svg class="social-link-icon" width="16" height="16">
+                <svg class="social-link-icon" width="24" height="24">
                   <use href="./images/sprite.svg#instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list-item">
               <a href="" class="social-list-link-ftr">
-                <svg class="social-link-icon" width="16" height="16">
+                <svg class="social-link-icon" width="24" height="24">
                   <use href="./images/sprite.svg#twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list-item">
               <a href="" class="social-list-link-ftr">
-                <svg class="social-link-icon" width="16" height="16">
+                <svg class="social-link-icon" width="24" height="24">
                   <use href="./images/sprite.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-list-item">
               <a href="" class="social-list-link-ftr">
-                <svg class="social-link-icon" width="16" height="16">
+                <svg class="social-link-icon" width="24" height="24">
                   <use href="./images/sprite.svg#linkedin"></use>
                 </svg>
               </a>
